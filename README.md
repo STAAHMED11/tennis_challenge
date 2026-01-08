@@ -1,6 +1,6 @@
 # 🎾 Ball Hit and Bounce Detection System
 
-This repository provides a comprehensive solution for detecting ball events — **Hits** (racket contacts) and **Bounces** (ground contacts) — from 2D trajectory data. It features two complementary approaches: a physics-based unsupervised method and a high-performance supervised machine learning model.
+This repository provides a comprehensive solution for detecting ball events — **Hits** and **Bounces** — from 2D trajectory data. It features two complementary approaches: a physics-based unsupervised method and a high-performance supervised machine learning model.
 
 ---
 
