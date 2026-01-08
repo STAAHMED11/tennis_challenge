@@ -80,23 +80,13 @@ The `models/` directory must contain:
 - `lstm_feature_columns.pkl`  
 - `lstm_label_encoder.pkl`
 
-### For XGBoost Model:
+### For ML Model:
 - `trained_xgboost_model.pkl`  
 - `scaler.pkl`  
 - `feature_columns.pkl`  
 - `label_encoder.pkl`
 
 ---
-
-## 📊 Performance Comparison
-
-| Model | Accuracy | F1-Score | Best For |
-|-------|----------|----------|----------|
-| **LSTM** | ~92% | **~0.78** | **Imbalanced data** (recommended) |
-| **XGBoost** | **~94%** | ~0.72 | Balanced datasets |
-| **Unsupervised** | ~85% | ~0.65 | No labels available |
-
-> **Why F1-Score matters**: With highly imbalanced classes (90%+ frames are "air"), a naive classifier predicting only "air" would achieve 90% accuracy but 0% F1-Score for hits/bounces. F1-Score better reflects the model's ability to correctly identify the rare but critical events.
 
 ---
 
