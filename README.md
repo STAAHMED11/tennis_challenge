@@ -154,48 +154,7 @@ To run this project, install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
-
-
 ---
 
-## 🎯 Model Selection Guide
 
-**Choose LSTM if:**
-- ✅ You need the best F1-Score (critical for imbalanced data)
-- ✅ You want better precision-recall balance
-- ✅ You have sequential/temporal data (which you do)
-
-**Choose XGBoost if:**
-- ✅ You need faster inference
-- ✅ Raw accuracy is your primary metric
-- ✅ You want feature interpretability
-
-**Choose Unsupervised if:**
-- ✅ No labeled training data available
-- ✅ Need interpretable physics-based approach
-- ✅ Quick prototyping without model training
-
----
-
-## 🔧 Troubleshooting
-
-### Pickle Compatibility Issues
-If you encounter numpy pickle errors, the code includes automatic fallbacks:
-- Attempts multiple loading strategies
-- Applies numpy compatibility patches
-- Creates runtime-fitted scalers if needed
-
-### Model Not Found
-Ensure the `models/` directory contains all required files for your chosen model type (LSTM or ML).
-
----
-
-## 📈 Future Enhancements
-
-- [ ] Ensemble method combining LSTM + XGBoost
-- [ ] Additional training data collection
-- [ ] Real-time inference optimization
-- [ ] Temporal smoothing post-processing
-- [ ] Confidence score calibration
-- [ ] Cross-validation with different court/camera angles
 
