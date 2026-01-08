@@ -155,16 +155,6 @@ To run this project, install the required Python packages:
 pip install -r requirements.txt
 ```
 
-### Required packages:
-```
-numpy>=1.19.0
-pandas>=1.2.0
-scikit-learn>=0.24.0
-scipy>=1.6.0
-xgboost>=1.4.0
-torch>=1.9.0
-joblib>=1.0.0
-```
 
 ---
 
