@@ -29,14 +29,6 @@ This method uses provided "action" labels to train a supervised model that captu
 
 ---
 
-## 📊 Performance Comparison
-
-| Model | Accuracy | F1-Score | Best For |
-| :--- | :--- | :--- | :--- |
-| **LSTM** | ~92% | **~0.78** | **Imbalanced data** (recommended) |
-| **XGBoost** | **~94%** | ~0.72 | Balanced datasets |
-| **Unsupervised** | ~85% | ~0.65 | No labels available |
-
 > **⚠️ Note on Metrics:** With highly imbalanced classes (90%+ frames are "air"), Accuracy can be misleading. The **F1-Score** better reflects the model's ability to correctly identify the rare but critical hit/bounce events.
 
 ---
